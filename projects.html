@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Jeanne Choi</title>
+  <meta name="description" content="Selected research prototypes and projects in human–computer interaction." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap-wide masthead__inner">
+      <a class="brand" href="index.html">Jeanne Choi<span class="dot">.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="assets/CV_Jeanne.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="wrap">
+      <p class="eyebrow">Projects <span class="swap">&#8596;</span> Prototypes &amp; systems</p>
+      <h1 class="page-title">Selected projects</h1>
+      <p class="prose muted" style="margin-bottom: 40px;">
+        A few systems I&rsquo;ve designed and built. Each links out to a paper,
+        a demo, or the source.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card__kind">Research prototype</span>
+          <h3>Steer</h3>
+          <p>
+            A direct-manipulation layer over a text-to-image model that lets
+            designers pin, constrain, and re-mix regions of an image instead of
+            re-rolling prompts. Evaluated with 18 practicing designers.
+          </p>
+          <p class="card__meta">React &middot; Canvas &middot; CHI 2026 &nbsp;|&nbsp; <a class="link" href="#">Demo</a> &middot; <a class="link" href="#">Paper</a></p>
+        </article>
+
+        <article class="card">
+          <span class="card__kind">Toolkit</span>
+          <h3>AccessFirst Kit</h3>
+          <p>
+            An open component library and study protocol for building
+            creativity tools with blind and low-vision makers from day one.
+            Used in two course projects and one paper.
+          </p>
+          <p class="card__meta">TypeScript &middot; ARIA &middot; Open source &nbsp;|&nbsp; <a class="link" href="#">GitHub</a></p>
+        </article>
+
+        <article class="card">
+          <span class="card__kind">Interaction technique</span>
+          <h3>Confidence Ink</h3>
+          <p>
+            A lightweight visual language for surfacing model uncertainty inline
+            as you type&mdash;so people can calibrate trust without leaving the
+            task. Undergraduate thesis work.
+          </p>
+          <p class="card__meta">Prototype &middot; User study (n=24) &nbsp;|&nbsp; <a class="link" href="#">Writeup</a></p>
+        </article>
+
+        <article class="card">
+          <span class="card__kind">Course / side project</span>
+          <h3>[Your project]</h3>
+          <p>
+            Swap in something you&rsquo;re proud of&mdash;a course project, a
+            hackathon build, or a tool you made for yourself. One or two
+            sentences on what it does and what you learned.
+          </p>
+          <p class="card__meta">Stack &middot; Year &nbsp;|&nbsp; <a class="link" href="#">Link</a></p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap-wide foot__inner">
+      <span>&copy; 2026 Jeanne Choi</span>
+      <span>Built with plain HTML &amp; CSS &middot; Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
